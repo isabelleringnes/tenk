@@ -1,0 +1,62 @@
+body {
+  font-family: 'Raleway', sans-serif;
+ font-weight: 300;
+}
+.jumbotron {
+  background: #000 url(http://i.giphy.com/3o85xCy32Gliokriuc.gif) center center; 
+  background-size: cover;
+  padding-top: 150px;
+  font-family: 'Raleway', sans-serif;
+ font-weight: 100;
+
+
+}
+
+.purple {
+  background-color: rgba(246,178,189,0.5);
+
+}
+
+
+
+.pink
+{
+  background-color: rgba(246,178,189,0.5);
+    border: none;
+}
+.navbar-brand {
+    color: white;
+
+}
+
+.btn-success {
+  background-color: black;
+  border-color: transparent;
+
+}
+.signup { 
+background-color: rgba(246,178,189,0.5);
+color: white;
+
+a:hover {
+  background-color: black;
+}
+
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:#000;
+    opacity:0;
+    filter:alpha(opacity=0);
+    z-index:50;
+}
+.container {
+    position:absolute;
+    opacity:0;
+    filter:alpha(opacity=0);
+    left:-9999em;
+    z-index:51;
+}
